@@ -1,0 +1,10 @@
+ErrorDocument 404 404.php
+
+RewriteEngine on
+
+RewriteRule ^Home index.php [NE,L]
+RewriteRule ^Rooms rooms.php [NE,L]
+RewriteRule ^Restaurent restaurent.php [NE,L]
+RewriteRule ^Gallery gallery.php [NE,L]
+RewriteRule ^Contact contact.php [NE,L]
+RewriteRule ^Room-Details room_details.php [NE,L]
